@@ -20,10 +20,11 @@ background-color: white;
 
   
 }
-img{
+.image{
+  background: url(/images/image-product-mobile.jpg);
   width:100%;
   overflow: hidden;
- 
+  height:460px;
 }
 
 button{
