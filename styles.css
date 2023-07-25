@@ -1,3 +1,8 @@
+
+*{
+  box-sizing: border-box;
+}
+
 html{
   height:100%
 }
@@ -10,16 +15,27 @@ main{
 max-width:375px;
 width:100%;
 margin:auto; 
-border-radius:15px;
-  background-color: white;
+border-radius: 12px;
+background-color: white;
+
   
 }
 img{
   width:100%;
+  overflow: hidden;
+ 
 }
 
 button{
-  background-color: value;
+  background-color: hsl(158, 36%, 37%);
+  width:100%;
+  color:white;
+}
+
+h2{
   
+  color:hsla(228, 12%, 48%, 1);
+  font-weight:500;
+
 }
 
